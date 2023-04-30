@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deixe-nos a sua mensagem!</title>
+</head>
+<body>
+
+<form action="">
+    <fieldset>
+        <legend>Entre em contacto</legend>
+        <label for="selecao"><b>Assunto:</b></label>
+        <Select name="selecao" id="selecao">
+            <option value="support">Suporte</option>
+            <option value="suggestion">Sugestão</option>
+            <option value="complaint">Reclamação</option>
+        </Select>
+        <br>
+        <br>
+        <label for="namesinput"><b>Nome Completo:</b></label>
+        <br>
+        <input type="text" name="name" id="namesinput" placeholder="Insira o seu nome completo" size="25" value="">
+        <br>
+        <br>
+        <label for="emailsinput"><b>Email:</b></label>
+        <br>
+        <input type="email" name="email" id="emailsinput" placeholder="Insira o seu email" size="25" value="">
+        <br>
+        <br>
+        <label for="textsinput"><b>Mensagem</b></label>
+        <br>
+        <textarea name="text" id="textsinput" cols="30" rows="8" placeholder="Insira aqui a sua mensagem" wrap="hard"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox" checked>
+        <label for="checkbox">Desejo receber as mais recentes novidades</label>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </fieldset>
+
+</form>
+</body>
+</html>
